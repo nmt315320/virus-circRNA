@@ -219,7 +219,6 @@ for op, value in opts:
     elif op == "-h":
         print 'Cross-Validate: python easy_classify.py -i {input_file.libsvm} -c {int: cross validate folds}'
         print 'Train-Test: python easy_classify.py -i {input_file.libsvm} -t {float: test size rate of file}'
-        print 'More information: https://github.com/ShixiangWan/Easy-Classify'
         sys.exit()
 
 print '*** Validating file format ...'
