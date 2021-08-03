@@ -26,3 +26,8 @@ python easy_classify.py -i train.libsvm -c 10
 ```ssh
   python easy_classify.py -h
 ```
+miRanda: miRanda<miRNA><mRNA>
+ 
+TargetScan: Perl TargetScan.pl<miRNA><mRNA><TargetScan_out>; perl TargetScan_60_context_scores.pl<miRNA><mRNA><TargetScan_out><TargetScan_context_score_out>
+ 
+CCmiR.py –a<miRNA>-b<mRNA>-c<miRNA expression level>-o<output>-P<number of used CPUs>  ---miRNA expression level is opitional. CCmiR url is http://hulab.ucf.edu/research/projects/miRNA/CCmiR/download/readme.txt
