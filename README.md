@@ -10,7 +10,7 @@ Easy-Classify.py
 * Naive Bayes
 * ......
 # Requirement
-* python 2.7+numpy、scipy、pandas
+* python 3.7.4+numpy、scipy、pandas
 # input
 *A libsvm or arff format file containing all positive and negative examples
 #output
